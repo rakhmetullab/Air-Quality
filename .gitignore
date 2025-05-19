@@ -1,0 +1,19 @@
+# Создайте файл .gitignore с базовыми правилами
+cat > .gitignore << EOL
+# Cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+
+# Virtual environments
+air_quality_env/
+venv/
+env/
+.venv/
+EOL__pycache__/
